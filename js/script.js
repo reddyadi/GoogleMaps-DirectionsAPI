@@ -3,6 +3,14 @@ console.log("working");
 var directionDisplay;
 var directionsService = new google.maps.DirectionsService();
 var map;
+var start = document.getElementById('start').value;
+var end = document.getElementById('end').value;
+var submit = document.getElementById('submit');
+
+function route(){
+  console.log(end);
+  console.log(start);
+}
 
 function initialize(){
   directionDisplay = new google.maps.DirectionsRenderer();
