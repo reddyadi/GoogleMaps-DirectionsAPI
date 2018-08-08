@@ -5,7 +5,6 @@ var directionsService = new google.maps.DirectionsService();
 var map;
 
 function initialize(){
-
   directionDisplay = new google.maps.DirectionsRenderer();
   var wellington = new google.maps.LatLng(-41.2865, 174.7762);
   var myOptions = {
@@ -16,7 +15,6 @@ function initialize(){
   map = new google.maps.Map(document.getElementById('map_canvas'), myOptions);
   directionDisplay.setMap(map);
   calcRoute();
-
 }
 
 function calcRoute(){
