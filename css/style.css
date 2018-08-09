@@ -1,4 +1,6 @@
 #map_canvas{
   width: 70vw;
   height: 80vh;
+  border: 5px solid red;
+  border-radius: 0.5em;
 }
